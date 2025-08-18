@@ -23,7 +23,7 @@ try:
         draw.text((10, 30), "SSD1306 SPI Test", font=font, fill="white")
 
     # Keep display on for 10 seconds
-    time.sleep(10)
+    time.sleep(2000)
 
 finally:
     # Cleanup GPIO on exit
